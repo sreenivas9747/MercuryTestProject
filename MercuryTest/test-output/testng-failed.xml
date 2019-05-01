@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteComplete]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestCases(failed)">
+    <classes>
+      <class name="com.selenium.testcases.MercuryTest.Example">
+        <methods>
+          <include name="SetupTest"/>
+          <include name="CloseTestNG"/>
+          <include name="OneWayTestNG"/>
+        </methods>
+      </class> <!-- com.selenium.testcases.MercuryTest.Example -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [SuiteComplete] -->
